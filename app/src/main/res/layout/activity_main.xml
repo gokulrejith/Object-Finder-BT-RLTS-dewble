@@ -24,7 +24,7 @@
             android:layout_weight="0.1"
             android:ellipsize="end"
             android:maxLines="1"
-            android:text="Rx:"
+            android:text="Rx (receiving from MCU):"
             android:textStyle="bold" />
 
         <TextView
@@ -48,7 +48,7 @@
             android:layout_weight="0.1"
             android:ellipsize="end"
             android:maxLines="1"
-            android:text="Status:"
+            android:text="Connection status:"
             android:textStyle="bold" />
 
         <TextView
@@ -61,49 +61,70 @@
             android:text="&lt;Bluetooth Status>" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/scan"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BT ON"
-        android:background="@drawable/testbutton"
-        android:textColor="@android:color/white"
-        android:layout_marginTop="15dp"
-       />
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/off"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="BT OFF"
-        android:textColor="@android:color/white"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/testbutton"
-        />
+        <Button
+            android:id="@+id/scan"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/testbutton"
+            android:text="BT ON"
+            android:layout_weight="1"
+            android:textColor="@android:color/white" />
 
-    <Button
-        android:id="@+id/paired_btn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="MY DEVICES"
-        android:textColor="@android:color/white"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/testbutton"/>
+        <Button
+            android:id="@+id/off"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/testbutton"
+            android:text="BT OFF"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/discover"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ADD NEW DEVICE"
-        android:textColor="@android:color/white"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/testbutton"
-        />
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/paired_btn"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/testbutton"
+            android:text="MY DEVICES"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/discover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/testbutton"
+            android:text="ADD NEW DEVICE"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
 
     <ListView
         android:id="@+id/devices_list_view"
         android:layout_width="wrap_content"
-        android:layout_height="202dp"
+        android:layout_height="305dp"
         android:layout_marginTop="25dp"
         android:choiceMode="singleChoice" />
 
@@ -117,6 +138,5 @@
         android:scaleX="1.7"
         android:scaleY="1.7"
         android:text="Alert!"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 </LinearLayout>

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/greBT1_-_Copy.iml" filepath="$PROJECT_DIR$/.idea/modules/greBT1_-_Copy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/greBT1_-_Copy.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/greBT1_-_Copy.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BluetoothCheck.iml" filepath="$PROJECT_DIR$/.idea/modules/BluetoothCheck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BluetoothCheck.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BluetoothCheck.app.iml" />
     </modules>
   </component>
 </project>

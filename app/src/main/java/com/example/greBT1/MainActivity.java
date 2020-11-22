@@ -2,6 +2,7 @@ package com.example.greBT1;
 
 import android.Manifest;
 import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothClass;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
 import android.content.BroadcastReceiver;
@@ -29,6 +30,7 @@ import android.widget.Toast;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Method;
+import java.text.DecimalFormat;
 import java.util.Set;
 import java.util.UUID;
 
@@ -101,9 +103,9 @@ public class MainActivity extends AppCompatActivity {
 
                 if(msg.what == CONNECTING_STATUS){
                     if(msg.arg1 == 1)
-                        mBluetoothStatus.setText("Connected to Device: " + msg.obj);
+                        mBluetoothStatus.setText("Connected to Device " + msg.obj);
                     else
-                        mBluetoothStatus.setText("Connection Failed");
+                        mBluetoothStatus.setText("Connection Failed. Try again.");
                 }
             }
         };
@@ -176,17 +178,17 @@ public class MainActivity extends AppCompatActivity {
             if (resultCode == RESULT_OK) {
                 // The user picked a contact.
                 // The Intent's data Uri identifies which contact was selected.
-                mBluetoothStatus.setText("Enabled");
+                mBluetoothStatus.setText("Bluetooth enabled");
             }
             else
-                mBluetoothStatus.setText("Disabled");
+                mBluetoothStatus.setText("Bluetooth Disabled");
         }
     }
 
     private void bluetoothOff(){
         mBTAdapter.disable(); // turn off
         mBluetoothStatus.setText("Bluetooth disabled");
-        Toast.makeText(getApplicationContext(),"Bluetooth turned Off", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(),"Bluetooth turned off", Toast.LENGTH_SHORT).show();
     }
 
     private void discover(){
@@ -201,31 +203,32 @@ public class MainActivity extends AppCompatActivity {
                 mBTAdapter.startDiscovery();
                 Toast.makeText(getApplicationContext(), "Discovery started", Toast.LENGTH_SHORT).show();
                 registerReceiver(blReceiver, new IntentFilter(BluetoothDevice.ACTION_FOUND));
-
-                //Hello Nikhil, I had inserted the RSSI code here, but it was not working.
-                //I simply need to display the RSSI somewhere. If possible even, after the connection with the slave is established.
             }
             else{
-                Toast.makeText(getApplicationContext(), "Bluetooth not on", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Bluetooth is switched off", Toast.LENGTH_SHORT).show();
             }
         }
     }
+    private static DecimalFormat df = new DecimalFormat("0.00");
 
     final BroadcastReceiver blReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
             String action = intent.getAction();
             if(BluetoothDevice.ACTION_FOUND.equals(action)){
-                Log.d("TAGG","Device Found");
                 BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
                 BluetoothClass bclass = intent.getParcelableExtra(BluetoothDevice.EXTRA_CLASS);
                 int  rssi = intent.getShortExtra(BluetoothDevice.EXTRA_RSSI,Short.MIN_VALUE);
                 // add the name to the list
-                String indicator = rssi.toString();
                 String deviceName = device.getName();
                 String btclass = bclass.toString();
+                Double distance = Math.pow(10d, ((double) -60 - rssi) / (10 * 2));
+                String convertedDist = df.format(distance);
+                String indicator;
+                indicator = Double.toString(distance);
+
                 Log.d("TAGG", "\n" + deviceName + " class:" + btclass + " Rssi:" + rssi);
-                mBTArrayAdapter.add(device.getName() + "\n" + device.getAddress() + "\n" + indicator);
+                mBTArrayAdapter.add(device.getName() +"\n"+ convertedDist + " ~ metre(s) away" + "\n" + device.getAddress());
                 mBTArrayAdapter.notifyDataSetChanged();
             }
         }
@@ -239,10 +242,10 @@ public class MainActivity extends AppCompatActivity {
             for (BluetoothDevice device : mPairedDevices)
                 mBTArrayAdapter.add(device.getName() + "\n" + device.getAddress());
 
-            Toast.makeText(getApplicationContext(), "Show Paired Devices", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "Showing Paired Devices", Toast.LENGTH_SHORT).show();
         }
         else
-            Toast.makeText(getApplicationContext(), "Bluetooth not on", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "Bluetooth is switched off!", Toast.LENGTH_SHORT).show();
     }
 
     private AdapterView.OnItemClickListener mDeviceClickListener = new AdapterView.OnItemClickListener() {
@@ -250,11 +253,11 @@ public class MainActivity extends AppCompatActivity {
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
             if(!mBTAdapter.isEnabled()) {
-                Toast.makeText(getBaseContext(), "Bluetooth not on", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getBaseContext(), "Bluetooth is switched off!", Toast.LENGTH_SHORT).show();
                 return;
             }
 
-            mBluetoothStatus.setText("Connecting...");
+            mBluetoothStatus.setText("Connecting to device!");
             // Get the device MAC address, which is the last 17 chars in the View
             String info = ((TextView) view).getText().toString();
             final String address = info.substring(info.length() - 17);

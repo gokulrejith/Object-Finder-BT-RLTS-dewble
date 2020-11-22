@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Documents\\AndroidApps\\greBT1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw\\values-sw.xml",
+            "outputFile": "D:\\Documents\\AndroidApps\\BluetoothCheck\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw\\values-sw.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Gokuul\\.gradle\\caches\\transforms-2\\files-2.1\\37ab76c45798bc4d654c49e479394b94\\appcompat-v7-23.3.0\\res\\values-sw\\values-sw.xml",
