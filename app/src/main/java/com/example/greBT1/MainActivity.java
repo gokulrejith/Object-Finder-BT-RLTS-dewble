@@ -216,9 +216,16 @@ public class MainActivity extends AppCompatActivity {
         public void onReceive(Context context, Intent intent) {
             String action = intent.getAction();
             if(BluetoothDevice.ACTION_FOUND.equals(action)){
+                Log.d("TAGG","Device Found");
                 BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
+                BluetoothClass bclass = intent.getParcelableExtra(BluetoothDevice.EXTRA_CLASS);
+                int  rssi = intent.getShortExtra(BluetoothDevice.EXTRA_RSSI,Short.MIN_VALUE);
                 // add the name to the list
-                mBTArrayAdapter.add(device.getName() + "\n" + device.getAddress());
+                String indicator = rssi.toString();
+                String deviceName = device.getName();
+                String btclass = bclass.toString();
+                Log.d("TAGG", "\n" + deviceName + " class:" + btclass + " Rssi:" + rssi);
+                mBTArrayAdapter.add(device.getName() + "\n" + device.getAddress() + "\n" + indicator);
                 mBTArrayAdapter.notifyDataSetChanged();
             }
         }
