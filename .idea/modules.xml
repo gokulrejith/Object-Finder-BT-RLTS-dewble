@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidApps.BluetoothCheck.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidApps.BluetoothCheck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidApps.BluetoothCheck.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidApps.BluetoothCheck.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BluetoothCheck.iml" filepath="$PROJECT_DIR$/.idea/modules/BluetoothCheck.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BluetoothCheck.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BluetoothCheck.app.iml" />
     </modules>
