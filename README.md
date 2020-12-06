@@ -1,2 +1,2 @@
 <h1 align="center">Object Finder using Bluetooth - RLTS</h1>
-<h3 align="center" style="background-color:powderblue;">Dewble v2.0</h3>
+<img align="center" src = "https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/Images/logo.png" />
