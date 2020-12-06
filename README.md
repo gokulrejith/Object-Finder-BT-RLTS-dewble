@@ -13,9 +13,9 @@
 <p align="center"><i>A product developed for the Electronics and Instrumentation Engineering semester 5 design project.</i></p>
 
 #### Team members: 
-🔸Gokul Rejitkumar  <br>
-🔸Aibal Grojan      <br>
-🔸Amruta M          <br>
-🔸Sony Shajan       <br>
+🔸 Gokul Rejitkumar  <br>
+🔸 Aibal Grojan      <br>
+🔸 Amruta M          <br>
+🔸 Sony Shajan       <br>
 
 #### Description:
