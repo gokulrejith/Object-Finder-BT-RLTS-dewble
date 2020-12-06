@@ -13,21 +13,21 @@
 <p align="center"><i>A product developed for the Electronics and Instrumentation Engineering semester 5 design project.</i></p>
 
 ### *_Team members_*
-_🔸 Gokul Rejitkumar  <br>
-_🔸 Aibal Grojan      <br>
-_🔸 Amruta M          <br>
-_🔸 Sony Shajan       <br>
+_🔸 Gokul Rejitkumar_  <br>
+_🔸 Aibal Grojan_      <br>
+_🔸 Amruta M_          <br>
+_🔸 Sony Shajan_       <br>
 
 ### *_Description_*
 _Have you ever lost any of your items somewhere near you but do not know exactly where? Do you usually have a  tough and annoying time finding out your lost items? Would you like a peace of mind regarding your luggage getting lost or misplaced when traveling? Then look no further, our project cum product is the perfect answer to all your worries._
 
-_dewble is a Bluetooth tag that can be attached to any items of interest that are prone to frequently getting misplaced. There are multiple innovative use case scenarios of _dewble. Some of the examples are:
+_dewble is a Bluetooth tag that can be attached to any items of interest that are prone to frequently getting misplaced. There are multiple innovative use case scenarios of dewble. Some of the examples are:_
 
-_◼ Finding keys, books, laptops, etc. <br>
-_◼ Tracking your kids in crowded environments. <br>
-_◼ Tracking your beloved pets. <br>
-_◼ Finding your car in a jampacked car parking space. <br>
-_◼ Tracking, and also finding your luggage while traveling.<br>
+◼ _Finding keys, books, laptops, etc._ <br>
+◼ _Tracking your kids in crowded environments._ <br>
+◼ _Tracking your beloved pets._ <br>
+◼ _Finding your car in a jampacked car parking space._ <br>
+◼ _Tracking, and also finding your luggage while traveling._<br>
 
-_dewble communicates with your phone using an Android application. Once you have attached the tag to your item, you can get to know the distance between you and your item. -_dewble contains a buzzer and LED that gets activated on demand for enhanced findability.
+_dewble communicates with your phone using an Android application. Once you have attached the tag to your item, you can get to know the distance between you and your item. -dewble contains a buzzer and LED that gets activated on demand for enhanced findability._
 
