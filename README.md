@@ -49,7 +49,7 @@ _🔹 LED_                                 <br>
 ### 🔶 Circuit and PCB
 <div align = "center">
 <img align = "center" src = "https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/Circuit/circuitSchem.png" width = "50%" height = "50%" alt = "Circuit diagram"/>
-<img style = "border-radius: 10px" align = "center" src = "https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/Circuit/pcb.png" width = "40%" height = "40%" alt = "PCB design"/>
+<img align = "center" src = "https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/Circuit/pcb.png" width = "40%" height = "40%" alt = "PCB design"/>
 </div>
 
 ### 🔶 3D Modelling
