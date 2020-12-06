@@ -33,13 +33,13 @@ _***dewble*** communicates with your phone using an Android application. Once yo
 
 ### *_Compoenents and Technologies_*
 #### *_Software_*
-🔺 Android Studio (JAVA) <br>
-🔺 Arduino IDE (C++)     <br>
+🟣 Android Studio (JAVA) <br>
+🟣 Arduino IDE (C++)     <br>
 #### *_Hardware_*
-🔻ATtiny85 IC                         <br>
-🔻HC-05 BT module (for prototyping)   <br>
-🔻TP4056 charger                      <br>
-🔻LiPo Battery (300mAh)               <br>
-🔻Buzzer                              <br>
-🔻LED
+🟣ATtiny85 IC                         <br>
+🟣HC-05 BT module (for prototyping)   <br>
+🟣TP4056 charger                      <br>
+🟣LiPo Battery (300mAh)               <br>
+🟣Buzzer                              <br>
+🟣LED
 
