@@ -12,13 +12,13 @@
 </p>
 <p align="center"><i>A product developed for the Electronics and Instrumentation Engineering semester 5 design project.</i></p>
 
-### ***_Team members_*** 
+#### ***_Team members_*** 
 🔸 Gokul Rejitkumar  <br>
 🔸 Aibal Grojan      <br>
 🔸 Amruta M          <br>
 🔸 Sony Shajan       <br>
 
-### ***_Description_***
+#### ***_Description_***
 Have you ever lost any of your items somewhere near you but do not know exactly where? Do you usually have a  tough and annoying time finding out your lost items? Would you like a peace of mind regarding your luggage getting lost or misplaced when traveling? Then look no further, our project cum product is the perfect answer to all your worries. <br>
 
 _dewble_ is a Bluetooth tag that can be attached to any items of interest that are prone to frequently getting misplaced. There are multiple innovative use case scenarios of _dewble_. Some of the examples are: <br> 
