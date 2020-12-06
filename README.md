@@ -48,8 +48,8 @@ _🟣 Buzzer_                              <br>
 _🟣 LED_                                 <br>
 
 ### *_Circuit and PCB_*
-<img src = "https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/Cicuit/circuitSchem.png" alt = "Circuit diagram"/>
-<img src = "https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/Cicuit/pcb.png" alt = "PCB design"/>
+<img align = "center" src = "https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/Cicuit/circuitSchem.png" width = "60%" height = "60%" alt = "Circuit diagram"/>
+<img align = "center" src = "https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/Cicuit/pcb.png" width = "60%" height = "60%" alt = "PCB design"/>
 
 ### *_3D Modelling_*
 <img align = "center" src="https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/3Dmodelling/stl_gif.gif" alt="Input stl file" >
