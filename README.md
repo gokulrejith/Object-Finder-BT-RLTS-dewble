@@ -12,9 +12,9 @@
 <p align="center"><i>A product developed for the Electronics and Instrumentation Engineering semester 5 design project.</i></p>
 
 ### 🔶 Team members
-_🔹 Gokul Rejitkumar_  <br>
+_🔹 Gokul Rejithkumar_  <br>
 _🔹 Aibal Grojan_      <br>
-_🔹 Amruta M_          <br>
+_🔹 Amrutha M_          <br>
 _🔹 Sony Shajan_       <br>
 
 ### 🔶 Description
@@ -49,7 +49,7 @@ _🔹 LED_                                 <br>
 ### 🔶 Circuit and PCB
 <div align = "center">
 <img align = "center" src = "https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/Circuit/circuitSchem.png" width = "50%" height = "50%" alt = "Circuit diagram"/>
-<img align = "center" src = "https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/Circuit/pcb.png" width = "40%" height = "40%" alt = "PCB design"/>
+<img style = "border-radius: 10px" align = "center" src = "https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/Circuit/pcb.png" width = "40%" height = "40%" alt = "PCB design"/>
 </div>
 
 ### 🔶 3D Modelling
