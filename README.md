@@ -31,7 +31,7 @@ _◼ Tracking, and also finding your luggage while traveling._<br>
 
 _***dewble*** communicates with your phone using an Android application. Once you have attached the tag to your item, you can get to know the distance between you and your item. ***dewble*** contains a buzzer and LED that gets activated on demand for enhanced findability._
 
-### *_Compoenents and Technologies_*
+### *_Components and Technologies_*
 #### *_Software_*
 🟣 Android Studio (JAVA) <br>
 🟣 Arduino IDE (C++)     <br>
