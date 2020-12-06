@@ -55,10 +55,10 @@ _🔹 LED_                                 <br>
 
 ### 🔶 3D Modelling
 <img src="https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/3Dmodelling/stl_gif.gif" width = "85%" height = "85%" alt="Input stl file" >
-<img align = center src="https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/3Dmodelling/3d1.jpg" width = "45%" height = "45%" alt="model" >
+<img src="https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/3Dmodelling/3d1.jpg" width = "45%" height = "45%" alt="model" >
 
 ### 🔶 Prototype image
-<img src="https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/Images/device.jpg" alt="Prototype" >
+<img src="https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/Images/device.jpg" width = "70%" height = "70%" alt="Prototype" >
 
 ### 🔶 Video 
 _Coming soon_
