@@ -3,7 +3,7 @@
 <img align="center" src = "https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/Images/logo.png" alt = "logo" />
 </p>
 <p align="center"><i>A product developed for the semester 5 design project.</i></p>
-#Team members:
+# Team members:
 -Gokul Rejitkumar
 -Aibal Grojan
 -Amruta M
