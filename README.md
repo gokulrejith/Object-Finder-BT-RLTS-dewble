@@ -33,8 +33,12 @@ _***dewble*** communicates with your phone using an Android application. Once yo
 
 ### *_Components and Technologies_*
 #### *_Software_*
-_🟣 Android Studio (JAVA)_ <br>
-_🟣 Arduino IDE (C++)_     <br>
+_🟣 Android Studio (JAVA)_      <br>
+_🟣 Arduino IDE (C++)_          <br>
+_🟣 Onshape 3D modelling_       <br>
+_🟣 Eagle CAD_                  <br>
+_🟣 MIT App Inventor_           <br>
+_🟣 Proteus circuit simulator_  <br>
 #### *_Hardware_*
 _🟣 ATtiny85 IC_                         <br>
 _🟣 HC-05 BT module (for prototyping)_   <br>
@@ -43,5 +47,9 @@ _🟣 LiPo Battery (300mAh)_               <br>
 _🟣 Buzzer_                              <br>
 _🟣 LED_                                 <br>
 
-### *_Components and Technologies_*
-<script src="https://embed.https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/3Dmodelling/DewbleScaled.stl>"></script>
+### *_Circuit and PCB_*
+<img src = "https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/Cicuit/circuitSchem.png" alt = "Circuit diagram"/>
+<img src = "https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/Cicuit/pcb.png" alt = "PCB design"/>
+
+### *_3D Modelling_*
+<img align = "center" src="https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/3Dmodelling/stl_gif.gif" alt="Input stl file" >
