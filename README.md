@@ -33,13 +33,15 @@ _***dewble*** communicates with your phone using an Android application. Once yo
 
 ### *_Components and Technologies_*
 #### *_Software_*
-🟣 Android Studio (JAVA) <br>
-🟣 Arduino IDE (C++)     <br>
+_🟣 Android Studio (JAVA)_ <br>
+_🟣 Arduino IDE (C++)_     <br>
 #### *_Hardware_*
-🟣 ATtiny85 IC                         <br>
-🟣 HC-05 BT module (for prototyping)   <br>
-🟣 TP4056 charger module               <br>
-🟣 LiPo Battery (300mAh)               <br>
-🟣 Buzzer                              <br>
-🟣 LED
+_🟣 ATtiny85 IC_                         <br>
+_🟣 HC-05 BT module (for prototyping)_   <br>
+_🟣 TP4056 charger module_               <br>
+_🟣 LiPo Battery (300mAh)_               <br>
+_🟣 Buzzer_                              <br>
+_🟣 LED_                                 <br>
 
+### *_Components and Technologies_*
+<script src="https://embed.https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/3Dmodelling/DewbleScaled.stl>"></script>
