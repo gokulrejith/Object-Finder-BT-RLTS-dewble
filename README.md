@@ -23,11 +23,11 @@ _Have you ever lost any of your items somewhere near you but do not know exactly
 
 _***dewble*** is a Bluetooth tag that can be attached to any items of interest that are prone to frequently getting misplaced. There are multiple innovative use case scenarios of ***dewble***. Some of the examples are:_
 
-◼ _Finding keys, books, laptops, etc._ <br>
-◼ _Tracking your kids in crowded environments._ <br>
-◼ _Tracking your beloved pets._ <br>
-◼ _Finding your car in a jampacked car parking space._ <br>
-◼ _Tracking, and also finding your luggage while traveling._<br>
+_◼ Finding keys, books, laptops, etc._ <br>
+_◼ Tracking your kids in crowded environments._ <br>
+_◼ Tracking your beloved pets._ <br>
+_◼ Finding your car in a jampacked car parking space._ <br>
+_◼ Tracking, and also finding your luggage while traveling._<br>
 
 _***dewble*** communicates with your phone using an Android application. Once you have attached the tag to your item, you can get to know the distance between you and your item. ***dewble*** contains a buzzer and LED that gets activated on demand for enhanced findability._
 
