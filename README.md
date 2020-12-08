@@ -53,7 +53,7 @@ _🔹 LED_                                 <br>
 </div>
 
 ### 🔶 3D Modelling
-<p align = "centre">
+<p align = "center">
 <img src="https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/3Dmodelling/stl_gif.gif" width = "85%" height = "85%" alt="Input stl file" >
  </p>
 <img src="https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/3Dmodelling/3d1.jpg" width = "45%" height = "45%" alt="model" >
