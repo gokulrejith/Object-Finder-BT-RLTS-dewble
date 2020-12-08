@@ -57,7 +57,7 @@ _🔹 LED_                                 <br>
 <img src="https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/3Dmodelling/3d1.jpg" width = "45%" height = "45%" alt="model" >
 
 ### 🔶 Prototype image
-<img src="https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/Images/device.jpg" width = "70%" height = "70%" alt="Prototype" >
+<img align = "middle" src="https://github.com/gokulrejith/Object-Finder-BT-RLTS/blob/main/Images/device.jpg" width = "70%" height = "70%" alt="Prototype" >
 
 ### 🔶 Video 
 _Coming soon_
